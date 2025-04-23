@@ -16,11 +16,12 @@ export const registerUser = async (data) => {
   
   if (!res.ok) {
     const errorData = await res.json();
-    if (errorData?.message?.includes("username already exists")) {
-      throw new Error("Username is already taken. Try another one.");
-    }
-    throw new Error(errorData.message || "Failed to register");
+    console.log(errorData.error.message);
+    
+    throw new Error(errorData.error.message || "Failed to register");
   }
+  return res.json();
+
 };
 
 

@@ -89,7 +89,7 @@ const CreateAd = () => {
         <img src={form.image} alt="Preview" className="w-full h-40 object-cover rounded" />
       )}
 
-      <button type="submit" className="bg-purple-500 text-white px-4 py-2 w-full rounded">
+      <button type="submit" className="bg-purple-500 text-white px-4 py-2 w-full rounded cursor-pointer">
         Post Ad
       </button>
     </form>

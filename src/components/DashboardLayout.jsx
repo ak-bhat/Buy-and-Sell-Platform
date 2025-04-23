@@ -34,7 +34,7 @@ const DashboardLayout = () => {
           </NavLink>
           <button
             onClick={handleLogout}
-            className="text-left text-red-500 hover:underline"
+            className="text-left text-red-500 hover:underline cursor-pointer"
           >
             Logout
           </button>

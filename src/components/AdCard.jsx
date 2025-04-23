@@ -18,7 +18,7 @@ const AdCard = ({ ad, isOwner, onDelete }) => {
         {isOwner && (
           <button
             onClick={() => onDelete(ad.id)}
-            className="text-xs text-red-500 hover:underline"
+            className="text-xs text-red-500 hover:underline cursor-pointer"
           >
             Delete
           </button>

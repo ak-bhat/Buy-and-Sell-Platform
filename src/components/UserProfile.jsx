@@ -101,7 +101,7 @@ const UserProfile = () => {
           </div>
           <button
             type="submit"
-            className="ml-36 w-62 bg-pink-500 text-white py-2 rounded-full font-medium hover:bg-pink-600"
+            className="ml-36 w-62 bg-pink-500 text-white py-2 rounded-full font-medium hover:bg-pink-600 cursor-pointer"
           >
             Save
           </button>
